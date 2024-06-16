@@ -1,0 +1,153 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/arjun/Desktop/TokenSwapper/contracts/ERC20Swapper.sol": {
+      "lastModificationDate": 1718562644407,
+      "contentHash": "cd719332ae66207e0f867a999f7c7979",
+      "sourceName": "contracts/ERC20Swapper.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20Swapper.sol",
+        "./interfaces/IWETH.sol",
+        "./interfaces/ISwapRouter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "ERC20Swapper"
+      ]
+    },
+    "/Users/arjun/Desktop/TokenSwapper/contracts/interfaces/IERC20Swapper.sol": {
+      "lastModificationDate": 1718562149021,
+      "contentHash": "0f159d89c25579dc73314d339bace901",
+      "sourceName": "contracts/interfaces/IERC20Swapper.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Swapper"
+      ]
+    },
+    "/Users/arjun/Desktop/TokenSwapper/contracts/interfaces/IWETH.sol": {
+      "lastModificationDate": 1718562223109,
+      "contentHash": "e6a490ae34fb03494d09948bca505b62",
+      "sourceName": "contracts/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/Users/arjun/Desktop/TokenSwapper/contracts/interfaces/ISwapRouter.sol": {
+      "lastModificationDate": 1718562192757,
+      "contentHash": "4031db3cf217dc05f534131ccf171b4c",
+      "sourceName": "contracts/interfaces/ISwapRouter.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    }
+  }
+}
